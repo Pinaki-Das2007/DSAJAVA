@@ -8,7 +8,7 @@ Basics of java
         Arrays
         Strings
 
-26/04/2026
+         26/04/2026
         Package
         Folder and subfolder
 
@@ -18,4 +18,16 @@ Basics of java
       else if
       switch
       break
+      practice problem
+
+29/04/2026
+      Loops
+      For
+      while
+      do while
+      practice problem
+
+
+      Nested Loops
+      Patterns
       practice problem
