@@ -12,7 +12,7 @@ Basics of java
         Package
         Folder and subfolder
 
-28/04/26
+28/04/2026
       Conditional Statements
       if,else
       else if
@@ -29,5 +29,10 @@ Basics of java
 
 
       Nested Loops
-      Patterns
+      Patterns(1-3)
       practice problem
+
+
+30/04/2026
+      Other printings(4-6)
+      Practice problem
