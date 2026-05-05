@@ -36,3 +36,9 @@ Basics of java
 30/04/2026
       Other printings(4-6)
       Practice problem
+
+
+
+5/05/2026
+      Functions
+      practice problem 
