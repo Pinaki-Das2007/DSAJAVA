@@ -1,18 +1,24 @@
 import java.util.Scanner;
+public class practice {
+    public static int multiplication(int a , int b){
+        int mul = a *b;
+        return mul;
+    }
 
-public class practice{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the range of the natural numbers;");
-        int n = sc.nextInt();
-        int sum = 0;
-        for (int i = 1; i <=n; i++) {
-            sum = sum + i;
-            
-        }
-        System.out.println("The sum of the first " + n + " natural numbers is: " + sum);
+        System.out.print("Enter the first number :");
+        int a = sc.nextInt();
+
+        System.out.print("Enter the second number :");
+        int b = sc.nextInt();
+
+        int mul = multiplication(a,b);
+        System.out.println("The multiplication value is : "+ mul);
+
+
 
 
         sc.close();
-    }
+        }
 }
