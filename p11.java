@@ -18,7 +18,6 @@ public class p11 {
         for (int i = 0; i < size; i++) {
             System.out.print(num[i] + " ");
         }
-
         System.out.print("\nEnter the number to search inside the array for its position: ");
         int search = sc.nextInt();
 
