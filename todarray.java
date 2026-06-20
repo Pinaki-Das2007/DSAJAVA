@@ -23,6 +23,7 @@ public class todarray {
 
         // output section
         System.out.println("The 2d array is :" + java.util.Arrays.deepToString(arr));
+     
 
         sc.close();
     }
