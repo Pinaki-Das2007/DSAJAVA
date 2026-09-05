@@ -5,6 +5,7 @@ public class s1 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a string: ");
         String string = sc.next();
+        System.out.println(string);
         
 
 
