@@ -5,5 +5,9 @@ public class sb1 {
         StringBuilder sb = new StringBuilder("Tony") ;
         System.out.println(sb);
         
+
+        // charAt() method
+        System.out.println(sb.charAt(0));
+        
     }
 }
