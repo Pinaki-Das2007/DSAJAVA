@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 
 public class sb1 {
     public static void main(String[] args){
@@ -8,6 +8,9 @@ public class sb1 {
 
         // charAt() method
         System.out.println(sb.charAt(0));
-        
+
+        // setCharAt() method
+        sb.setCharAt(2,'m');
+        System.out.println(sb);
     }
 }
