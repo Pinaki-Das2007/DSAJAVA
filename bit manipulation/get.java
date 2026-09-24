@@ -1,4 +1,3 @@
-import java.util.*;
 public class get{
     public static void main(String args[]){
         int n = 5;
