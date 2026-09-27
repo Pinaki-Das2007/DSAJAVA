@@ -4,6 +4,7 @@ public class q3 {
             return 0;
         }
         return n + sum(n-1);
+
     }
 
 
