@@ -6,6 +6,10 @@ public class string {
         System.out.println(firstname.charAt(0));
         System.out.println(firstname.length());
 
-        
+        String name = "Pinaki";
+        name = "Rahul";
+        System.out.println(name);
+
+
     }
 }
