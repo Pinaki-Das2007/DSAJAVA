@@ -1,5 +1,7 @@
+import java.util.Scanner;
 public class array {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         int arr [];
         arr = new int[5];
         int brr[] =  {10,20,30,40,50};
@@ -20,6 +22,26 @@ public class array {
             System.out.println(brr[i]);
         }
 
+     System.out.println("New way to iterate");
+        
+     for(int i : brr){
+        System.out.println(i);
+     }
 
+     System.out.println(" Taking input into an array");
+
+     int crr[] = new int[5];
+     for(int i = 0 ; i <= crr.length - 1 ; i ++){
+        System.out.println(("Enter the value at index " + i));
+        crr[i] = sc.nextInt();
+     }
+
+
+     for(int val : crr){
+        System.out.println(val);
+     }
+
+
+     sc.close();
     }
 }
