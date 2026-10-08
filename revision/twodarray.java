@@ -1,8 +1,8 @@
 public class twodarray {
     public static void main(String[] args){
         
-        int[] [] arr ;
-        arr = new int[3][4];
+        // int[] [] arr ;
+        // arr = new int[3][4];
         
         int [] [] brr = {
             {1,2},
