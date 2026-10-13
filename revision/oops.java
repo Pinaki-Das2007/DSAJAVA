@@ -15,11 +15,15 @@ public class oops {
         // s1.bunk();
 
         // Parameterized constructor
-        student s2 = new student(1, 20, "Pinaki", 5);
+        student s2 = new student(1, 20, "Pinaki", 5,"Tina");
         System.out.println("Student id is:"+s2.id);
         System.out.println("Student age is:"+s2.age);
         System.out.println("Student name is:"+s2.name);
         System.out.println("Student no of subjects is:"+s2.no_of_subjects);
+        System.out.println("Student gf is:"+s2.gf);
+        s2.chatting();
+
+
         student s3 = new student(s2);
         System.out.println("Student id is:"+s3.id);
         System.out.println("Student age is:"+s3.age);

@@ -3,6 +3,8 @@ public class student {
     public int age;
     public String name;
     public int no_of_subjects;
+    private String gf;
+
 
     // Default constructor
     public student(){
@@ -23,12 +25,17 @@ public class student {
     }
 
     // Parameterized constructor
-    public student(int id , int age , String name, int nos){
+    public student(int id , int age , String name, int nos , String gf){
         System.out.println("This is a parameterized constructor");
         this.id = id;
         this.age = age;
         this.name = name ;
         this.no_of_subjects = nos;
+        this.gf = gf;
+    }
+
+    private void chatting(){
+        System.out.println(name + " is chatting with " + gf);
     }
 
     // copy constructor
