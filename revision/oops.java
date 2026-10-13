@@ -20,5 +20,10 @@ public class oops {
         System.out.println("Student age is:"+s2.age);
         System.out.println("Student name is:"+s2.name);
         System.out.println("Student no of subjects is:"+s2.no_of_subjects);
+        student s3 = new student(s2);
+        System.out.println("Student id is:"+s3.id);
+        System.out.println("Student age is:"+s3.age);
+        System.out.println("Student name is:"+s3.name);
+        System.out.println("Student no of subjects is:"+s3.no_of_subjects);
     }   
 }

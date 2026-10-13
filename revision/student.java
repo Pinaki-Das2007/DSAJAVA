@@ -30,4 +30,13 @@ public class student {
         this.name = name ;
         this.no_of_subjects = nos;
     }
+
+    // copy constructor
+    public student(student s){
+        System.out.println("This is a copy constructor");
+        this.id = s.id;
+        this.age = s.age;
+        this.name = s.name ;
+        this.no_of_subjects = s.no_of_subjects;
+    }
 }
