@@ -1,9 +1,34 @@
 public class student {
-    public int id;
-    public int age;
-    public String name;
-    public int no_of_subjects;
+    private  int id;
+    private  int age;
+    private  String name;
+    private  int no_of_subjects;
     private String gf;
+
+    public String getname(){
+        return this.name;
+
+    }
+
+    public int getid(){
+        return this.id;
+    }
+
+    public int getage(){
+        return this.age;
+    }
+
+    public void setage(int age){
+        this.age = age;
+    }
+
+    public int getno_of_subjects(){
+        return this.no_of_subjects;
+    }
+
+    public String getgf(){
+        return this.gf;
+    }
 
 
     // Default constructor
