@@ -35,6 +35,10 @@ public class main {
         arr.removeAll(list);
         System.out.println(arr);
 
+        // clear
+        arr.clear();
+        System.out.println(arr);
+
 
         
         // Collection<Integer> collection = new ArrayList<>();
