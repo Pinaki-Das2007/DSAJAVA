@@ -49,9 +49,22 @@ public class main {
             System.out.println(it.next());
         }
 
-
+        // Get method
         
-        // Collection<Integer> collection = new ArrayList<>();
+        List<Integer> list3 = new ArrayList<>();
+        list3.add(11);
+        list3.add(12);
+        list3.add(13);
+        list3.add(14);
+
+        System.out.println(list3.get(0));
+        System.out.println("Before set "+ list3);
+
+
+        // Set method   
+        list3.set(0,100);
+        System.out.println("After set "+ list3);
+
 
     }
 }
