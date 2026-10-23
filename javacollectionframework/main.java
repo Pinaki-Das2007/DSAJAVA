@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Iterator;
 import java.util.List;
 
 
@@ -36,8 +37,17 @@ public class main {
         System.out.println(arr);
 
         // clear
-        arr.clear();
+        // arr.clear();
         System.out.println(arr);
+
+        System.out.println("Iteration using iterator");
+
+        // I want to traverse list using iterator
+
+        Iterator<Integer> it = arr.iterator();
+        while (it.hasNext()){
+            System.out.println(it.next());
+        }
 
 
         
