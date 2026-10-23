@@ -65,6 +65,15 @@ public class main {
         list3.set(0,100);
         System.out.println("After set "+ list3);
 
+        // toArray
+        Object[] obj = list3.toArray();
+        for (Object o: obj){
+            System.out.println(o);
+        }
+        
+        // contains
+        System.out.println(list3.contains(1009));
+
 
     }
 }
